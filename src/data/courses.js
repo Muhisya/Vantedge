@@ -1,0 +1,8 @@
+export const courses = [
+  { id: 1, title: "Modern React Mastery", description: "Master Hooks and the Virtual DOM.", fullDescription: "A deep dive into the most popular UI library in the world. Learn to build scalable apps.", price: "Free", genre: "React", lessons: ["State Management", "Effect Hooks", "Custom Hooks"] },
+  { id: 2, title: "Tailwind Architecture", description: "Design sleek systems at scale.", fullDescription: "Go beyond basic utility classes. Build a full design system using Tailwind CSS.", price: "Free", genre: "CSS", lessons: ["Config Customization", "Responsive Patterns", "Dark Mode"] },
+  { id: 3, title: "Backend Essentials", description: "Node.js and Database design.", fullDescription: "Learn how to build secure APIs and handle complex data relationships with MongoDB.", price: "Free", genre: "Backend", lessons: ["Middleware", "JWT Auth", "Aggregation"] },
+  { id: 4, title: "UI/UX Foundations", description: "Human-centric design principles.", fullDescription: "Learn why users behave the way they do and how to design interfaces they love.", price: "Free", genre: "Design", lessons: ["Wireframing", "Color Theory", "Prototyping"] },
+  { id: 5, title: "Next.js 15 Pro", description: "Server components and streaming.", fullDescription: "The future of the web is here. Learn the latest features of the Next.js framework.", price: "Free", genre: "React", lessons: ["Server Actions", "Streaming SSR", "App Router"] },
+  { id: 6, title: "TypeScript Mastery", description: "Type-safe development flow.", fullDescription: "Eliminate bugs before they happen by mastering the TypeScript type system.", price: "Free", genre: "JavaScript", lessons: ["Generics", "Interfaces", "Union Types"] }
+];
