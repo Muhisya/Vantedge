@@ -4,7 +4,10 @@ import { courses } from '../data/courses';
 const Home = () => {
   return (
     <div className="max-w-7xl mx-auto px-6 py-20 m">
-      <header className="text-center mb-24">
+      <header className="text-center mb-24 mt-16 relative">
+        <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]">
+          <div className="absolute inset-0 bg-gradient-to-t from-white"></div>
+        </div>
         <h1 className="text-7xl font-black tracking-tighter mb-6">Get an edge on your <span className="text-[#8E977D] italic">potential.</span></h1>
         <p className="text-xl text-slate-600 font-semibold max-w-2xl mx-auto leading-relaxed">High-intensity programs designed for the next generation of digital architects. <span className='font-semibold'> Trusted by <span className="font-extrabold text-[#8E977D]">5,000+</span> developers and entrepreneurs.</span></p>
         <div className="pt-8">
@@ -30,7 +33,7 @@ const Home = () => {
             </div>
           ))}
         </div>
-        <p className="text-center mt-4"><Link to="/courses" className="inline-block font-bold text-sm text-slate-400 hover:text-[#8E977D] mt-8 transition-all">View All Programs →</Link></p>
+        <p className="text-center mt-4"><Link to="/courses" className="inline-block font-bold text-sm justify-between items-center text-slate-400 hover:text-[#8E977D] mt-8 transition-all">View All Programs →</Link></p>
       </section>
     </div>
   );
