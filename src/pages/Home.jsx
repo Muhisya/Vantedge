@@ -6,7 +6,7 @@ const Home = () => {
     <div className="max-w-7xl mx-auto px-6 py-20 m">
       <header className="text-center mb-24">
         <h1 className="text-7xl font-black tracking-tighter mb-6">Get an edge on your <span className="text-[#8E977D] italic">potential.</span></h1>
-        <p className="text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed">High-intensity programs designed for the next generation of digital architects. <span className='font-semibold'> Trusted by <span className="font-extrabold text-[#8E977D]">5,000+</span> developers and entrepreneurs.</span></p>
+        <p className="text-xl text-slate-600 font-semibold max-w-2xl mx-auto leading-relaxed">High-intensity programs designed for the next generation of digital architects. <span className='font-semibold'> Trusted by <span className="font-extrabold text-[#8E977D]">5,000+</span> developers and entrepreneurs.</span></p>
         <div className="pt-8">
           <Link 
             to="/about" 

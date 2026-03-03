@@ -2,7 +2,7 @@ import { NavLink, Outlet } from 'react-router-dom';
 
 const MainLayout = () => {
   const navLinkStyle = ({ isActive }) => 
-    `text-sm font-bold w-fit text-center tracking-tight transition-all ${isActive ? 'text-[#8E977D] border-b border-[#8E977D]' : 'text-slate-400 hover:text-slate-900'}`;
+    `text-sm font-bold w-fit text-center tracking-tight transition-colors transition-all ${isActive ? 'text-[#8E977D] border-b border-[#8E977D]' : 'text-slate-400 hover:text-slate-900'}`;
 
   return (
     <div className="min-h-screen flex flex-col bg-[#F8FAFC]">
