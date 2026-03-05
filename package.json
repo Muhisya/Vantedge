@@ -1,9 +1,9 @@
 {
-  "name": "card-router",
+  "name": "vantedge",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://muhisya.github.io/Vantedge/",
+  "homepage": "https://muhisya.github.io/vantedge/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
