@@ -41,9 +41,9 @@ const About = () => {
                <h2 className="text-3xl font-extrabold mb-4 tracking-tight">Ready to find your edge?</h2>
                <p className="text-slate-500 mb-8 max-w-lg mx-auto">Join a community of 5,000+ creators building the next generation of the web.</p>
                 <Link 
-                  to="/about" 
+                  to="/courses" 
                   className="inline-block bg-slate-900 text-white px-8 py-4 rounded-2xl font-bold hover:bg-[#8E977D] transition-all shadow-xl shadow-slate-200">
-                  Explore our Story
+                  Explore our Programs
                 </Link>
              </div>
              <div className="absolute -bottom-20 -right-20 w-64 h-64 rounded-full"></div>
